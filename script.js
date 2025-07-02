@@ -50,7 +50,7 @@ $("h1").on("click",function(){
         
         nextSequence();
         started = true;
-    }
+    };
 });
 
 function checkAnswer(currentLevel) {
