@@ -45,12 +45,12 @@ $(document).on("keydown",function(){
     }
 });
 
-$("h1").on("click",function(){
+$("h1").on("touchstart",function(){
     if(!started){
         
         nextSequence();
         started = true;
-    }
+    };
 });
 
 function checkAnswer(currentLevel) {
