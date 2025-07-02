@@ -61,7 +61,7 @@ function checkAnswer(currentLevel) {
     wrong.play();
     setTimeout(function(){
         $("body").removeClass("game-over");
-    }, 200)
+    }, 200);
   }
 }
 
